@@ -1,0 +1,112 @@
+.gray {color: #D0D6F9;}
+.bellefair {font-family: "Bellefair";}
+.barlow {font-family: "Barlow";}
+.barlow_condensed {font-family: "Barlow Condensed";}
+.image{background: url("assets/home/background-home-desktop.jpg")center/cover;height: 110vh;}
+.homepage{display: flex;align-items: center;padding-top: 150px;}
+.text-whites{color:white;transition: .3s;}
+.text-whites:hover{border-bottom:2px solid #7f7c7c;}
+.nav-link:hover{color: white !important;}
+.hover{border-bottom:2px solid #ffffff;}
+.padding{padding: 80px 0;}
+.travel{font-size: 28px;letter-spacing: 2px;}
+.space{font-size: 150px;}
+.homepage_text{font-size: 18px; width: 47%;}
+.bg-blur{backdrop-filter: blur(15px)}
+.explore:hover{box-shadow:0 0 0 40px #a5a4a4;}
+.explore{padding: 100px 55px;background-color: #fff;font-size: 32px;border-radius: 50%;margin-right: 100px;transition: .5s;}
+/* destination */
+.selected{border-bottom: 3px solid #fff;}
+.all{display: flex;color: #d0d6f9;margin-top: 50px;}
+#planetnames{display: flex;column-gap: 30px;}
+#planetimages img{width: 445px;height: 445px;}
+.font_size_destination{font-size: 28px;}
+.destination{background: url("assets/destination/background-destination-desktop.jpg")center/cover;
+height: 100vh;}
+.planets{width: 35%;margin: auto;}
+#planet{font-size: 100px;}
+#planet_info{font-size: 18px;letter-spacing: 2px;}
+.planets_another_infos>div>h4{font-size: 14px;letter-spacing: 2px;}
+#time,#avg{font-size: 28px;}
+.planets_another_infos{display: flex;justify-content: space-between;text-align: center;}
+#planetnames p{padding: 0 20px;}
+/* #planetnames p:nth-child(1){border-bottom:3px solid #ffffff;} */
+#planetnames p:hover{border-bottom:3px solid #ffffff;}
+/* crew */
+.line_crew{height: 0px;}
+.crew_image{background: url("./assets/crew/background-crew-desktop.jpg")center/cover;height: 100vh;}
+.astro{display: flex;flex-direction: column-reverse;}
+#ball{display: flex;justify-content: left; column-gap: 20px;}
+#astronaut img{width: 450px;height: 450px; object-fit: contain;}
+#astronaut{display: flex;justify-content: end;}
+#astronaut {position: absolute;bottom: 0px;right: 50px;}
+.balls{width: 20px;height: 20px;background-color: #4f4f4f;border-radius: 50%;}
+.w-40{width: 42%;}
+#astronaut_position{font-size: 32px;opacity: 50%;padding-top: 50px;}
+#astronaut_name{ font-size: 56px;}
+.balls:hover{background-color: #fff;}
+#astronaut_bio{font-size: 18px; color: #d0d6f9;font-weight: 400;padding-bottom: 50px;letter-spacing: 2px;}
+/* tech */
+.technology{background: url("assets/technology/background-technology-desktop.jpg")center/cover;height: 100vh;}
+.about_tech{color: #fff;}
+#number{width: 25px;height: 25px; padding: 20px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;color: #000;}
+#numbers{display: flex;}
+#tech_img img{float: right;}
+
+@media only screen and (max-width: 992px) {
+    .offcanvas-body{background-color: none;backdrop-filter: blur(7px)}
+    .image{background: url("assets/home/background-home-tablet.jpg")center/cover;height: 100vh;}
+    .mb{margin-bottom: 20px;}
+    .text-whites{color:black !important ;}
+    .text-whites:hover{border-bottom:2px solid #111;}
+    .nav-link:hover{color: black !important;}
+    .homepage{display: flex;flex-direction: column;justify-content: center;text-align: center;padding-top: 30}
+    .homepage_text{width: 100%;font-size: 16px;}
+    .travel{font-size: 20px;}
+    .space{font-size: 80px;}
+    .padding{padding: 0;}
+    .explore {padding: 80px 40px;text-align: center;background-color: #fff;border-radius: 50%;font-size: 20px;letter-spacing: 2px;margin: 0;}
+    /* destination */
+    .font_size_destination{font-size: 16px;text-align: center;}
+    .destination{background: url("assets/destination/background-destination-tablet.jpg")center/cover;
+    height: 135vh;}
+    .planets{width: 100%;}
+    #planetimages{display: flex;justify-content: center;}
+    #planetimages img{width: 300px;height: 300px;margin: 30px 0;}
+    #planetnames{display: flex;color: #d0d6f9;letter-spacing: 2px;justify-content: center;column-gap: 10px;}
+    #planetnames p{padding:0px 20px;}
+    #planet{font-size: 56px;display: flex;justify-content: center;}
+    #planet_info{color: #d0d6f9;text-align: center;}
+    .all{display: flex;flex-direction: column;}
+    .line{background-color: #fff; height: 2px;margin: 5vh auto; width:65%}
+    .planets_another_infos>div>h4{font-size: 14px;letter-spacing: 2px;}
+    .planets_another_infos{text-align: center;display: flex;flex-direction: column;}
+    #time,#avg{font-size: 28px;}
+    /* crew */
+    .crew_image{background: url(assets/crew/background-crew-tablet.jpg)center/cover;height: 100vh;}
+    #astronaut img{width: 300px;height: 300px;display: flex;margin: auto;object-fit: contain;}
+    #astronaut{margin-top: 30px;position: relative;right: 0px;}
+    .line_crew{background-color: #fff;height: 2px;margin: auto;width: 65%;}
+    #ball{display: flex;justify-content: center;column-gap: 20px;margin: 30px;}
+    .balls{width: 12px;height: 12px;background-color: #4f4f4f;border-radius: 50%;}
+    .balls:hover{background-color: #fff;}
+    #astronaut_info{text-align: center;}
+    .astro{display: flex;flex-direction: column;}
+    .w-40{width: 100%;}
+    #astronaut_position{ font-size: 16px;padding: 0;}
+    #astronaut_name{ font-size: 24px;}
+    #astronaut_bio{color: #d0d6f9;font-weight: 400;padding: 0;}
+    /* technology */
+    .technology{background: url("assets/technology/background-technology-tablet.jpg")center/cover;
+    height: 100vh;}
+    #numbers{display: flex;justify-content: center;margin-top: 20px;gap: 20px;}
+    #number{width: 25px;height: 25px; padding: 20px;background: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;}
+    .about_tech{text-align: center;color: #fff;}
+    .alls{display: flex;flex-direction: column;}
+}
+@media only screen and (max-width: 768px) {
+    #tech_img img {max-width: 100%;height: auto;object-fit: contain;}
+    #planetimages img{width: 150px;height: 150px;}
+    #planetnames p{padding:0px 10px;}
+    #astronaut img{width: 150px;height: 150px;display: flex;margin: auto;object-fit: contain;}
+}
